@@ -1,0 +1,89 @@
+body {
+   font-family: "trebuchet ms", Verdana, Tahoma, sans-serif;
+   background: #f2e8e1;
+}
+
+h1 {
+   box-sizing: border-box;
+   text-align: center;
+   background: #cddeee;
+   margin: 16px auto;
+   width: 500px;
+   height: 100px;
+   padding: 25px;
+   border: 3px solid rgb(93, 136, 205);
+}
+
+.image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.welcome {
+   box-sizing: border-box;
+   text-align: center;
+   background: #cddeee;
+   margin: 4px auto;
+   width: 500px;
+   height: 40px;
+   padding: 5px;
+   border: 3px solid rgb(93, 136, 205);
+}
+
+.intro {
+   text-align: center;
+   box-sizing: border-box;
+   background: #d2eecd;
+   margin: 4px auto;
+   width: 500px;
+   padding: 2px;
+   border: 3px solid rgb(164, 205, 93)
+}
+
+a {
+   box-sizing: border-box;
+   background: #fbfbfb;
+   color: rgb(220, 39, 39);
+
+}
+
+.links-list {
+   box-sizing: border-box;
+   display: flex;
+   background-color: rgb(129, 194, 194);
+   padding: 2px;
+   border: 2px solid rgb(87, 150, 150);
+   width: 800px;
+   height: 80px;
+   margin: 4px auto;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+
+.links-list div {
+   box-sizing: border-box;
+   text-align: center;
+   width: 215px;
+   height: 50px;
+   border: 2px solid white;
+   background-color: rgb(179 57 81);
+   color: #fff;
+   align-content: center;
+   border-radius: 10px;
+}
+
+.links-list div:hover {
+   background-color: rgb(220, 177, 49);
+   color: #fff;
+ }
+
+#circle {
+   width: 10px;
+   height: 10px;
+   background-color: aquamarine;
+   border: 1px solid salmon;
+   border-radius: 10px;
+   margin: auto;
+}

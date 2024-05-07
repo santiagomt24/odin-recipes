@@ -1,0 +1,27 @@
+body {
+   font-family: "trebuchet ms", Verdana, Tahoma, sans-serif;
+   text-align: center;
+}
+
+.heading {
+   background-color: rgb(255, 255, 255);
+   color: rgb(152, 185, 76);
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+ul.ingredients {
+   display: inline-block;
+   list-style-type: none;
+   text-align:left;
+ }
+ 
+ ol.steps {
+   display: inline-block;
+   text-align:left;
+ }
